@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyper Tension Prediction</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Hyper Tension Prediction Using Machine Learning (KNN Algorithm)</h1>
+    <form action="/predict" method="post">
+        <label for="age">Enter age:</label><br>
+        <input type="text" name="age" required><br>
+
+        <label for="sex">Enter sex (0 for female, 1 for male):</label><br>
+        <input type="text" name="sex" required><br>
+
+        <label for="high_chol">High cholesterol (0 for no, 1 for yes):</label><br>
+        <input type="text" name="high_chol" required><br>
+
+        <label for="chol_check">Cholesterol checked (0 for no, 1 for yes):</label><br>
+        <input type="text" name="chol_check" required><br>
+
+        <label for="bmi">Enter BMI:</label><br>
+        <input type="text" name="bmi" required><br>
+
+        <label for="smoker">Smoker (0 for no, 1 for yes):</label><br>
+        <input type="text" name="smoker" required><br>
+
+        <label for="heart_disease">Heart disease or attack (0 for no, 1 for yes):</label><br>
+        <input type="text" name="heart_disease" required><br>
+
+        <label for="phys_activity">Physical activity (0 for low, 1 for high):</label><br>
+        <input type="text" name="phys_activity" required><br>
+
+        <label for="fruits">Fruits consumption (0 for low, 1 for high):</label><br>
+        <input type="text" name="fruits" required><br>
+
+        <label for="veggies">Vegetables consumption (0 for low, 1 for high):</label><br>
+        <input type="text" name="veggies" required><br>
+
+        <label for="heavy_alcohol">Heavy alcohol consumption (0 for no, 1 for yes):</label><br>
+        <input type="text" name="heavy_alcohol" required><br>
+
+        <label for="gen_health">General health (1 to 5):</label><br>
+        <input type="text" name="gen_health" required><br>
+
+        <label for="ment_health">Mental health (0 to 15):</label><br>
+        <input type="text" name="ment_health" required><br>
+
+        <label for="phys_health">Physical health (0 to 30):</label><br>
+        <input type="text" name="phys_health" required><br>
+
+        <label for="diff_walk">Difficulty walking (0 for no, 1 for yes):</label><br>
+        <input type="text" name="diff_walk" required><br>
+
+        <label for="stroke">Stroke (0 for no, 1 for yes):</label><br>
+        <input type="text" name="stroke" required><br>
+
+        <label for="diabetes">Diabetes (0 for no, 1 for yes):</label><br>
+        <input type="text" name="diabetes" required><br>
+
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>

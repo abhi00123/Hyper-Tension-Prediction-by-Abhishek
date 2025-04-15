@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("pattern.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #container {
+    margin: 0 auto;
+    width: 70%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+  }
+  form {
+    padding: 20px;
+  }
+  
+  .input-row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .input-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #5e08ff;
+  }
+  
+  input[type="text"] {
+    opacity: 0.4;
+    width: 40%;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #f5f5f5;
+  }
+  
+  input[type="submit"] {
+    background-color: #6042f4;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  h1{
+    text-align: center;
+  }

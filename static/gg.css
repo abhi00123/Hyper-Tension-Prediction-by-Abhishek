@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: blue;
+    font-family: font-family: system-ui;;
+}
+body{
+    background-image: url("pat.jpg");
+}
+p{
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+}
+a { 
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+  }
